@@ -30,13 +30,13 @@ h1 {
 }
 
 button {
-        border: none;
-        background-color: transparent;
-        /* line-height: 20px; */
+    border: none;
+    background-color: transparent;
+    /* line-height: 20px; */
 }
 
 .btn {
-    background-color:#0260FF ;
+    background-color: #0260FF;
     padding: 8px 10px;
     color: #fff;
     font-style: normal;
@@ -44,6 +44,7 @@ button {
     /* margin: 10px; */
 
 }
+
 /* Header */
 
 header {}
@@ -70,6 +71,10 @@ header {}
 .logo {
     padding: 10px;
     width: 8%;
+}
+
+.logo img {
+    max-width: 100%;
 }
 
 .btn-top {
@@ -108,9 +113,118 @@ header {}
 }
 
 .img-jumbo img {
-    width: 100%;
+    max-width: 100%;
 }
 
 .jumbo-details .btn {
     margin: 20px 0;
+}
+
+/* main */
+
+.main-container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+/* plan */
+
+.plan-container {
+    display: flex;
+    gap: 20px;
+}
+
+.offer {
+    width: calc((100% / 3) - (40px / 3));
+}
+
+.single-plan {
+    background-color: #0260FF;
+    height: 300px;
+
+    border: 2px solid black;
+}
+
+.team-plan {
+    background-color: #0260FF;
+    height: 300px;
+
+    border: 2px solid black;
+}
+
+.company-plan {
+    background-color: #0260FF;
+    height: 300px;
+
+    border: 2px solid black;
+}
+
+.expert-plan {
+    margin-top: 20px;
+    background-color: #0260FF;
+    height: 300px;
+    border: 2px solid black;
+}
+
+/* partner */
+
+#partner {
+    display: flex;
+    margin: 50px 0;
+}
+
+.partner-img {
+    width: 50%;
+    /* debug */
+    background-color: #0260FF;
+    height: 300px;
+    border: 2px solid black;
+}
+
+.partner-details {
+    width: 50%;
+    /* debug */
+    background-color: #0260FF;
+    height: 300px;
+    border: 2px solid black;
+}
+
+/* business */
+
+#business {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.col-bus {
+    width: calc((100% / 3) - (40px / 3));
+    /* debug */
+    background-color: #0260FF;
+    height: 300px;
+    border: 2px solid black;
+}
+
+/* Footer */
+
+footer {
+    background-color: black;
+}
+
+#footer-container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.footer-info {
+    display: flex;
+}
+
+.info-link {
+    width: calc(100% / 5);
+    /* debug */
+    background-color: #0260FF;
+    height: 300px;
+    border: 2px solid black;
+
 }
