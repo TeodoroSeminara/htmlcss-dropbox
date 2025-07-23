@@ -20,18 +20,33 @@ a {
     text-decoration: none;
     color: black;
     padding: 20px;
-    
+
 }
 
 h1 {
-    font-size: 80px;
+    font-size: 60px;
     margin: 0 auto;
+    font-weight: 800;
+}
+
+button {
+        border: none;
+        background-color: transparent;
+        /* line-height: 20px; */
+}
+
+.btn {
+    background-color:#0260FF ;
+    padding: 8px 10px;
+    color: #fff;
+    font-style: normal;
+    cursor: pointer;
+    /* margin: 10px; */
+
 }
 /* Header */
 
-header {
-
-}
+header {}
 
 .header-container {
     background-color: #B4D0E6;
@@ -59,10 +74,10 @@ header {
 
 .btn-top {
     padding: 10px;
-
 }
+
 /* List navbar */
-.nav-bar{
+.nav-bar {
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
@@ -74,17 +89,28 @@ header {
     /* flex-grow: 1; */
     align-items: center;
 }
- /* Jumbotron */
 
- #jumbotron {
+/* Jumbotron */
+
+#jumbotron {
     width: 80%;
     margin: 0 auto;
- }
- 
- .jumbo-container {
-    display: flex;
- }
+}
 
- .jumbotron-details {
-    width: 20%;
- }
+.jumbo-container {
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+
+.jumbo-details {
+    width: 50%;
+}
+
+.img-jumbo img {
+    width: 100%;
+}
+
+.jumbo-details .btn {
+    margin: 20px 0;
+}
