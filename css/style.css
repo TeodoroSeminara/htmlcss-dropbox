@@ -12,6 +12,21 @@ body {
     font-size: 16px;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 20px;
+    
+}
+
+h1 {
+    font-size: 80px;
+    margin: 0 auto;
+}
 /* Header */
 
 header {
@@ -26,11 +41,50 @@ header {
 }
 
 #nav-container {
-    /* width: 100%; */
+    width: 100%;
     position: fixed;
     top: 0;
     z-index: 900;
+    background-color: white;
+    display: flex;
+    padding: 10px 0;
     /* debug */
-    background-color: blue;
-    height: 50px;
+    /* height: 50px; */
 }
+
+.logo {
+    padding: 10px;
+    width: 8%;
+}
+
+.btn-top {
+    padding: 10px;
+
+}
+/* List navbar */
+.nav-bar{
+    flex-grow: 1;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.nav-bar-list {
+    display: flex;
+    /* flex-grow: 1; */
+    align-items: center;
+}
+ /* Jumbotron */
+
+ #jumbotron {
+    width: 80%;
+    margin: 0 auto;
+ }
+ 
+ .jumbo-container {
+    display: flex;
+ }
+
+ .jumbotron-details {
+    width: 20%;
+ }
