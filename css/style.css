@@ -52,8 +52,13 @@ button {
     color: #fff;
     font-style: normal;
     cursor: pointer;
-    /* margin: 10px; */
+    margin: 20px 0;
+}
 
+.btn-white {
+    color: black;
+    background-color: #fff;
+    border: 1px solid black;
 }
 
 /* Header */
@@ -120,6 +125,7 @@ button {
 
 .jumbo-details {
     width: 50%;
+    
 }
 
 .img-jumbo img {
@@ -151,28 +157,41 @@ button {
     width: calc((100% / 3) - (40px / 3));
 }
 
+.price {
+    font-weight: 700;
+}
+
+.offer li {
+    margin: 20px;
+}
+
 .single-plan {
+    /* padding: 0 30px; */
     border: 1px solid #a7a7a7;
 }
 
 .team-plan {
-    background-color: #0260FF;
-    height: 300px;
     border: 1px solid #a7a7a7;
 }
 
 .company-plan {
-    background-color: #0260FF;
-    height: 300px;
-
-    border: 1px solid #a7a7a7;
+   border: 1px solid #a7a7a7;
 }
 
 .expert-plan {
     margin-top: 20px;
-    background-color: #0260FF;
-    height: 300px;
     border: 1px solid #a7a7a7;
+}
+
+.expert-info {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.expert-info .price {
+    display: block;
+    margin-bottom: 30px;
 }
 
 /* partner */
