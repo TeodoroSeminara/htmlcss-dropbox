@@ -77,9 +77,8 @@ button {
     /* height: 50px; */
 }
 
-.nav-bar-list a {
-    padding: 20px;
-
+.nav-bar-list li {
+    padding: 0px 20px;
 }
 
 .logo {
@@ -91,10 +90,6 @@ button {
     max-width: 100%;
 }
 
-.btn-top {
-    padding: 10px;
-    color: #fff;
-}
 
 /* List navbar */
 .nav-bar {
@@ -131,9 +126,7 @@ button {
     max-width: 100%;
 }
 
-.jumbo-details .btn {
-    margin: 20px 0;
-}
+
 
 /* main */
 
@@ -143,45 +136,43 @@ button {
     /* background-color: aqua; */
 }
 
-/* plan */
-/* #plan {
-    width: 80%;
-} */
 .plan-container {
     display: flex;
     gap: 20px;
 }
 
+.plan-icon {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #a7a7a7;
+    background-color: #fff;
+}
 .offer {
     width: calc((100% / 3) - (40px / 3));
 }
 
 .single-plan {
-    background-color: #0260FF;
-    height: 300px;
-
-    border: 2px solid black;
+    border: 1px solid #a7a7a7;
 }
 
 .team-plan {
     background-color: #0260FF;
     height: 300px;
-
-    border: 2px solid black;
+    border: 1px solid #a7a7a7;
 }
 
 .company-plan {
     background-color: #0260FF;
     height: 300px;
 
-    border: 2px solid black;
+    border: 1px solid #a7a7a7;
 }
 
 .expert-plan {
     margin-top: 20px;
     background-color: #0260FF;
     height: 300px;
-    border: 2px solid black;
+    border: 1px solid #a7a7a7;
 }
 
 /* partner */
