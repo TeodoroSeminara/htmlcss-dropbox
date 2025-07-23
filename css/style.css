@@ -33,6 +33,7 @@ h2 {
 
 h3 {
     font-size: 30px;
+    padding-bottom: 20px;
 }
 
 h4 {
@@ -190,20 +191,18 @@ button {
     margin: 50px 0;
 }
 
-.partner-img {
-    width: 50%;
+.partner-img img {
+    max-width: 100%;
     /* debug */
-    background-color: #0260FF;
+    /* background-color: #0260FF;
     height: 300px;
-    border: 2px solid black;
+    border: 2px solid black; */
 }
 
 .partner-details {
     width: 50%;
-    /* debug */
-    background-color: #0260FF;
-    height: 300px;
-    border: 2px solid black;
+    padding: 20px 10px;
+    margin-left: 50px;
 }
 
 /* business */
@@ -235,31 +234,6 @@ button {
 .main-footer h2 {
     padding-bottom: 50px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
