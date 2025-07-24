@@ -14,6 +14,7 @@ body {
 
 ul {
     list-style: none;
+    --icon-space:var(5.0em)
 }
 
 .reset-a {
@@ -61,8 +62,23 @@ button {
     border: 1px solid black;
 }
 
-.span-block{
+.span-block {
     display: block;
+}
+
+.line-gray-small {
+    width: 50px;
+    border-top: 1px solid #a7a7a7;
+    margin: 40px 0;
+}
+
+.time-cost {
+    color: #a7a7a7;
+}
+
+/* setting UL FA */
+.offer .fa-ul {
+    margin-inline-start: var(--fa-li-margin, 20px);
 }
 /* Header */
 
@@ -90,7 +106,7 @@ button {
 }
 
 .nav-bar-list li {
-    padding-left:20px;
+    padding-left: 20px;
 }
 
 .logo {
@@ -121,8 +137,8 @@ button {
     margin: 0;
 }
 
-li.li-login{
-    padding:10px;
+li.li-login {
+    padding: 10px;
 }
 
 /* Jumbotron */
@@ -130,32 +146,35 @@ li.li-login{
 #jumbotron {
     width: 80%;
     margin: 0 auto;
+    position: relative;
 }
 
 .jumbo-container {
     display: flex;
     justify-content: center;
-    padding-top: 50px;
-    position: relative;
-}
-
-.jumbo-details {
-    width: 50%;
-    
-}
-
-.img-jumbo img {
-    max-width: 100%;
     position: relative;
     top: 60px;
 }
 
-.jumbo-container .arrow {
-    font-size: 50px;
+.jumbo-details {
+    width: 40%;
+    position: relative;
+}
+
+.img-jumbo img {
+    max-width: 100%;
+
+}
+
+.arrow .fa-arrow-down {
+    font-size: 40px;
+    position: absolute;
+    bottom: 80px;
+    left: 30px;
 }
 
 .jumbo-container .span-block {
-    margin: 40px 0;
+    margin: 10px 0;
 }
 
 /* main */
@@ -168,7 +187,8 @@ li.li-login{
 
 .plan-container {
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    margin-bottom: 50px;
 }
 
 .plan-icon {
@@ -177,8 +197,14 @@ li.li-login{
     border-bottom: 1px solid #a7a7a7;
     background-color: #fff;
 }
+
+.plan-head span {
+    margin: 40px 40px 40px 0px;
+    display: inline-block;
+}
+
 .offer {
-    width: calc((100% / 3) - (40px / 3));
+    width: calc((100% / 3) - (100px / 3));
 }
 
 .price {
@@ -186,11 +212,14 @@ li.li-login{
 }
 
 .offer li {
-    margin: 20px;
+    margin: 20px 0;
+}
+
+.plan-pad {
+    padding: 20px;
 }
 
 .single-plan {
-    /* padding: 0 30px; */
     border: 1px solid #a7a7a7;
 }
 
@@ -199,7 +228,7 @@ li.li-login{
 }
 
 .company-plan {
-   border: 1px solid #a7a7a7;
+    border: 1px solid #a7a7a7;
 }
 
 .expert-plan {
@@ -217,6 +246,7 @@ li.li-login{
     display: block;
     margin-bottom: 30px;
 }
+
 
 /* partner */
 
@@ -241,7 +271,7 @@ li.li-login{
 
 /* business */
 
-#business {
+.row {
     display: flex;
     gap: 20px;
     flex-wrap: wrap;
@@ -268,12 +298,6 @@ li.li-login{
 .main-footer h2 {
     padding-bottom: 50px;
 }
-
-
-
-
-
-
 
 /* Footer */
 
