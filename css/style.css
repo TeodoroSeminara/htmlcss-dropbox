@@ -54,6 +54,7 @@ button {
     font-style: normal;
     cursor: pointer;
     margin: 20px;
+    transition-duration: 0.4s;
 }
 
 .btn-white {
@@ -80,6 +81,19 @@ button {
 .offer .fa-ul {
     margin-inline-start: var(--fa-li-margin, 20px);
 }
+
+/* hover btn */
+.btn:hover {
+    background-color: #a7a7a7;
+    color: black;
+}
+
+.btn-white:hover {
+    background-color: #0260FF;
+    color: white;
+}
+
+
 /* Header */
 
 .header-container {
@@ -157,7 +171,7 @@ li.li-login {
 }
 
 .jumbo-details {
-    width: 40%;
+    width: 50%;
     position: relative;
 }
 
@@ -174,7 +188,7 @@ li.li-login {
 }
 
 .jumbo-container .span-block {
-    margin: 10px 0;
+    margin-top: 10px;
 }
 
 /* main */
