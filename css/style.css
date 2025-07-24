@@ -14,7 +14,7 @@ body {
 
 ul {
     list-style: none;
-    --icon-space:var(5.0em)
+    --icon-space: var(5.0em)
 }
 
 .reset-a {
@@ -47,6 +47,8 @@ button {
     /* line-height: 20px; */
 }
 
+/* button */
+
 .btn {
     background-color: #0260FF;
     padding: 8px 10px;
@@ -61,6 +63,11 @@ button {
     color: black;
     background-color: #fff;
     border: 1px solid black;
+}
+
+.btn-center {
+    display: block;
+    margin: 0 auto;
 }
 
 .span-block {
@@ -93,6 +100,9 @@ button {
     color: white;
 }
 
+.nav-a:hover {
+    border-bottom: 2px #a7a7a7 solid;
+}
 
 /* Header */
 
@@ -132,19 +142,20 @@ button {
     max-width: 100%;
 }
 
-
 /* List navbar */
 .nav-bar {
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
-
 }
 
 .nav-bar-list {
     display: flex;
-    /* flex-grow: 1; */
     align-items: center;
+}
+
+.nav-a {
+    padding-bottom: 19px;
 }
 
 .login {
@@ -177,14 +188,14 @@ li.li-login {
 
 .img-jumbo img {
     max-width: 100%;
-
 }
 
 .arrow .fa-arrow-down {
     font-size: 40px;
-    position: absolute;
+    margin-top: 20px;
+    /* position: absolute;
     bottom: 80px;
-    left: 30px;
+    left: 30px; */
 }
 
 .jumbo-container .span-block {
@@ -205,6 +216,10 @@ li.li-login {
     margin-bottom: 50px;
 }
 
+.offer {
+    width: calc((100% / 3) - (100px / 3));
+    border: 1px solid #a7a7a7;
+}
 .plan-icon {
     text-align: center;
     padding: 10px;
@@ -217,9 +232,6 @@ li.li-login {
     display: inline-block;
 }
 
-.offer {
-    width: calc((100% / 3) - (100px / 3));
-}
 
 .price {
     font-weight: 700;
@@ -233,22 +245,10 @@ li.li-login {
     padding: 20px;
 }
 
-.single-plan {
-    border: 1px solid #a7a7a7;
-}
-
-.team-plan {
-    border: 1px solid #a7a7a7;
-}
-
-.company-plan {
-    border: 1px solid #a7a7a7;
-}
-
 .expert-plan {
     margin-top: 20px;
     border: 1px solid #a7a7a7;
-}
+} 
 
 .expert-info {
     display: flex;
@@ -261,7 +261,6 @@ li.li-login {
     margin-bottom: 30px;
 }
 
-
 /* partner */
 
 #partner {
@@ -271,10 +270,6 @@ li.li-login {
 
 .partner-img img {
     max-width: 100%;
-    /* debug */
-    /* background-color: #0260FF;
-    height: 300px;
-    border: 2px solid black; */
 }
 
 .partner-details {
@@ -327,14 +322,11 @@ footer {
 .footer-info {
     display: flex;
     justify-content: space-evenly;
+    margin-bottom: 30px;
 }
 
 .info-link {
     color: #fff;
-    /* debug */
-    /* background-color: #0260FF;
-    height: 300px;
-    border: 2px solid black; */
 }
 
 .info-link li {
@@ -343,7 +335,6 @@ footer {
 
 .info-link h4 {
     margin-bottom: 30px;
-    /* padding: 20px; */
 }
 
 .info-link li:hover a {
@@ -357,8 +348,11 @@ footer {
 /* language */
 
 .language {
-    width: 20%;
+    width: 10%;
     color: grey;
-    /* margin-left: 50px; */
+    border-top: 1px solid #a7a7a7;
 }
 
+.language span {
+    margin: 20px auto;
+}
